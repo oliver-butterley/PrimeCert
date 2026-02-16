@@ -16,6 +16,9 @@ Helpful links:
 
 namespace PrimeCert
 
+set_option linter.style.longLine false
+set_option linter.style.setOption false
+
 -- set_option trace.profiler true
 
 theorem prime_16290860017' : Nat.Prime 16290860017 :=
